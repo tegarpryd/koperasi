@@ -1,0 +1,19 @@
+/*
+This file can be used for custom styles that are not part of the dynamic theme.
+It can also use the variables defined in dynamic-theme.php.
+*/
+
+.feature-icon {
+    color: var(--primary-color);
+}
+
+.navbar {
+    /* Example of using a variable for a more complex style */
+    background-color: var(--primary-color) !important;
+    /* A lighter version would require more logic, for now we use the main color */
+}
+
+/* Ensure links in the themed navbar are readable */
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #ffffff !important;
+}
